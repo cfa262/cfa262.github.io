@@ -1,0 +1,23 @@
+// variable overrides
+
+$body-bg: #ededed;
+
+$theme-colors: (
+    "primary": #0c9992
+);
+
+.jumbotron{
+    background-color: #ffffff !important;
+    border: 18px solid rgb(97, 110, 228);
+}
+
+.card-body.text-center{
+    background-color: #ffffff !important;
+    border-top: 10px solid rgb(207, 18, 18);
+}
+
+
+//Bootstrap Sass files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
